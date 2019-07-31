@@ -1,0 +1,291 @@
+.homebg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url('../images/index.png') no-repeat center top;
+    background-size: 100%;
+}
+
+.homebg .btnbox {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+}
+
+.homebg .btnbox .liuc {
+    float: left;
+    width: 50%;
+    height: 13vw;
+    line-height: 13vw;
+    background: url('../images/bl.png') no-repeat center top;
+    background-size: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.homebg .btnbox .lianxi {
+    float: left;
+    width: 50%;
+    height: 13vw;
+    line-height: 13vw;
+    background: url('../images/br.png') no-repeat center top;
+    background-size: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.rucanbox {
+    background-color: #f5f5f5;
+    width: 92%;
+    padding: 4%;
+    position: relative;
+    z-index: 10;
+}
+
+.rucanbox .rucanlistitem {
+    width: 94%;
+    padding: 3%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+}
+
+.rucanbox .rucanlistitem img {
+    max-width: 100%;
+}
+
+.rucanbox .rucanlistitem h3 {
+    color: #333333;
+    font-weight: 200;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.rucanbox .rucanlistitem p.listp {
+    color: #666666;
+    margin-top: 5px;
+    padding-left: 20px;
+    line-height: 20px;
+    font-size: 1em;
+}
+
+.rucanbox .rucanlistitem p.address {
+    background: url('../images/r2.jpg') no-repeat left .2em;
+    background-size: 1.1em 1.1em;
+}
+
+.rucanbox .rucanlistitem p.phone {
+    background: url('../images/r3.jpg') no-repeat left .2em;
+    background-size: 1.1em 1.1em;
+}
+
+.rucanbox .rucanlistitem h5 {
+    color: #333333;
+    font-size: 1.3em;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.rucanbox .rucanlistitem p.t {
+    margin-top: 10px;
+}
+
+.rucanbox .rucanlistitem p.c {
+    margin-top: 5px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.rucanboxdtail .rucanbg1 {
+    position: absolute;
+    bottom: 25px;
+    width: 86%;
+    left: 7%;
+    height: 20px;
+    background-color: #fafafa;
+    border-radius: 2em;
+    z-index: -1;
+}
+
+.rucanboxdtail .rucanbg2 {
+    position: absolute;
+    bottom: 15px;
+    width: 80%;
+    left: 10%;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 2em;
+    z-index: -2;
+}
+
+.aboutbg {
+    background: url('../images//aboutbg.jpg') no-repeat center top;
+    background-size: 100%;
+    background-color: #b9c6ff;
+}
+
+.aboutbg .rucanbg1 {
+    background-color: #d9dfff;
+}
+
+.aboutbg .rucanbg2 {
+    background-color: #cdd6ff;
+}
+
+.aboutc p {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.wordpcontack {
+    background-color: #f5f5f5;
+    width: 92%;
+    padding: 4%;
+    position: relative;
+}
+
+.wordpitem {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+}
+
+.wordpitem h3 {
+    width: 94%;
+    padding: 3%;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.wordpitem>div {
+    width: 94%;
+    padding: 3%;
+}
+
+.wordpitem>div p {
+    font-size: 1em;
+    padding-left: 20px;
+    color: #666666;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.wordpitem>div p.l1 {
+    background: url('../images/l1.jpg') no-repeat left .2em;
+    background-size: 1.2em 1.2em;
+}
+
+.wordpitem>div p.l2 {
+    background: url('../images/r3.jpg') no-repeat left .2em;
+    background-size: 1.2em 1.2em;
+}
+
+.wordpitem>div p.l3 {
+    background: url('../images/l3.jpg') no-repeat left .2em;
+    background-size: 1.2em 1.2em;
+}
+
+.wordpressbox {
+    width: 81.5%;
+    margin-left: 10%;
+    border-left: 1px solid #dadada;
+    padding-left: 8.5vw;
+}
+
+.wordpressbox .content {
+    display: inline-block;
+    width: 90%;
+    padding: 10px 4% 10px 4%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    position: relative;
+    margin-bottom: 3vw;
+}
+
+.wordpressbox .content h3 {
+    color: #333333;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.wordpressbox .content p {
+    line-height: 1.5em;
+    color: #666666;
+}
+
+.wordpressbox .content .jt {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: url('../images/jt.png') no-repeat center center;
+    background-size: 100%;
+    top: 40%;
+    left: -10px;
+}
+
+.wordpressbox .content .point {
+    width: 6vw;
+    height: 6vw;
+    position: absolute;
+    top: 36%;
+    background-color: #dbd0ff;
+    border-radius: 50%;
+    left: -11.5vw;
+}
+
+.wordpressbox .content .point div {
+    width: 2vw;
+    height: 2vw;
+    margin: 0 auto;
+    margin-top: 2vw;
+    background-color: #7200ff;
+    border-radius: 50%;
+}
+
+.placebox .bdmap {
+    width: 100%;
+    height: 60vh;
+}
+
+.placebox .info {
+    width: 90%;
+    padding: 2% 5% 2% 5%;
+    height: 36vh;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.placebox .info h3 {
+    font-size: 1.2em;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.placebox .info p {
+    color: #666666;
+}
+
+.placebox .info span {
+    position: absolute;
+    width: 16vw;
+    height: 16vw;
+    border-radius: 50%;
+    top: -8vw;
+    right: 5vw;
+    background: url('../images/p1.png') no-repeat center center;
+    background-size: 40%;
+    background-color: #3385ff;
+}
+
+.wordpressbox .contentbox img {
+    max-width: 100%;
+}
